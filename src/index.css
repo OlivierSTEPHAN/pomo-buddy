@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans";
+  background-color: #68976f;
+  color: white;
+  font-size: large;
+}
+
+@font-face {
+  font-family: "DsDigi";
+  src: local("DsDigi"), url("./fonts/DS-DIGI.TTF") format("truetype");
+  font-weight: bold;
+}

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://olivierSTEPHANgithub.io/pomo-buddy/",
+  "homepage": "https://olivierSTEPHAN.github.io/pomo-buddy/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

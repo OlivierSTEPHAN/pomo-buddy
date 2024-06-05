@@ -5,7 +5,7 @@ import { devices } from "../../utils/MediaSize";
 
 const Container = styled.div`
   margin: 5px;
-  max-width: 150px;
+  max-width: 80px;
   transition: all 0.2s;
   @media ${devices["2xl"]} {
     height: 12%;

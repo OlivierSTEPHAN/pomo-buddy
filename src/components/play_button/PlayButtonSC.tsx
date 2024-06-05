@@ -7,8 +7,8 @@ const Container = styled.div`
 
 const PlayButtonStyled = styled.svg`
   position: absolute;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

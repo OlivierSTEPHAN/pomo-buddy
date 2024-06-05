@@ -11,8 +11,8 @@ const Container = styled.section`
 `;
 
 const ColoredCircle = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   margin: 10px;
   background-color: ${(props) => props.color};

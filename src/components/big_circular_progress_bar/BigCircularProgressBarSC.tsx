@@ -4,10 +4,10 @@ import { devices } from "../../utils/MediaSize";
 
 const Container = styled.section`
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin: 10px;
-  @media ${devices.lg} {
+  @media ${devices.md} {
     height: 0;
     width: 60%;
     padding-bottom: 60%;

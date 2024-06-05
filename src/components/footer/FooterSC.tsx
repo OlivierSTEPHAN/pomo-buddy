@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { devices } from "../../utils/MediaSize";
 
 const Container = styled.div`
-  height: 150px;
-  width: 90%;
+  height: 10%;
+  margin:10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +16,7 @@ const Container = styled.div`
 
 const Line = styled.div`
   width: 328px;
-  border: 5px solid white;
+  border: 3px solid white;
   border-radius: 2px;
   @media ${devices.lg} {
     border: 2px solid white;

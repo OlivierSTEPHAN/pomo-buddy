@@ -4,44 +4,48 @@ interface DurationData {
   emoji: string;
 }
 
+const chill = import.meta.env.VITE_TIMING_CHILL
+const work = import.meta.env.VITE_TIMING_WORK
+const sleep = import.meta.env.VITE_TIMING_SLEEP
+
 const data: DurationData[] = [
   {
-    duration: 15,
+    duration: work,
     text: "",
     emoji: "",
   },
   {
-    duration: 3,
+    duration: chill,
     text: "Allez, ptite pause",
     emoji: "😥",
   },
   {
-    duration: 15,
+    duration: work,
     text: "T'endors pas ça recommence",
     emoji: "💪",
   },
   {
-    duration: 3,
+    duration: chill,
     text: "Ptite biè.. café, c'est bien le café",
     emoji: "☕",
   },
   {
-    duration: 15,
+    duration: work,
     text: "Encore un effort",
     emoji: "🎯",
   },
   {
-    duration: 3,
+    duration: chill,
     text: "Une petite pause pour toi, un grand pas pour ton projet",
     emoji: "📈",
   },
   {
-    duration: 15,
+    duration: work,
     text: "T'en as plus pour longtemps",
     emoji: "⏲️",
   },
   {
-    duration: 9,
+    duration: sleep,
     text: "Jure c'est déjà terminé ? Grosse sieste maintenant",
     emoji: "🥳",
   },

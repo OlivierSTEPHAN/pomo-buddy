@@ -62,7 +62,7 @@ function Timer() {
               }
             })}
           </CircleRow>
-          <Timing> {currentDuration} minutes </Timing>
+          <Timing> {currentDuration/60} minutes </Timing>
           <State>
             {"Cycle de "}
             {currentCycle % 2 == 0 ? "travail" : "pause"}

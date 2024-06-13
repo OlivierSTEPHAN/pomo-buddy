@@ -2,7 +2,12 @@ import styled from "styled-components";
 import { devices } from "../../utils/MediaSize";
 
 const Container = styled.div`
+  width: 100%;
+  height: 40px;
   position: relative;
+  @media ${devices.lg} {
+    height: 35px;
+  }
 `;
 
 const PlayButtonStyled = styled.svg`
@@ -19,8 +24,8 @@ const PlayButtonStyled = styled.svg`
     scale: 1.1;
   }
   @media ${devices.lg} {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 `;
 

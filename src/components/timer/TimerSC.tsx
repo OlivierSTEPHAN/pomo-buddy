@@ -36,9 +36,6 @@ const ProgressbarRow = styled.div`
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
-  @media ${devices["2xl"]} {
-    flex-direction: column;
-  }
 `;
 
 const Column = styled.div`

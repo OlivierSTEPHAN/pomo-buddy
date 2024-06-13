@@ -11,6 +11,7 @@ import BigCircularProgressBar from "./components/big_circular_progress_bar/BigCi
 import Footer from "./components/footer/Footer";
 import Timer from "./components/timer/Timer";
 import PlayButton from "./components/play_button/PlayButton";
+import Spacer from "./components/spacer/Spacer";
 
 interface MainContainerInterface {
   $isChilling: boolean;
@@ -34,6 +35,7 @@ function App() {
     <MainContainer $isChilling={isChilling}>
       <Toaster position="bottom-center" />
       <Header />
+      <Spacer />
       <BigCircularProgressBar />
       <PlayButton />
       <Timer />

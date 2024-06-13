@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.div`
-  display: flex;
-  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   width: 100%;
   height: 80px;
-  align-items: start;
 `;
 
 const Logo = styled.img`

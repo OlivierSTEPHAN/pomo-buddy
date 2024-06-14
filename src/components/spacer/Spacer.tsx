@@ -1,5 +1,4 @@
-import React from 'react'
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
@@ -7,9 +6,7 @@ const Container = styled.div`
 `;
 
 function Spacer() {
-    return (
-        <Container></Container>
-    )
+  return <Container></Container>;
 }
 
-export default Spacer
+export default Spacer;
